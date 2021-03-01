@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2.iml" filepath="$PROJECT_DIR$/.idea/2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Dialog_Corpus-master/.idea/Dialog_Corpus-master.iml" filepath="$PROJECT_DIR$/../Dialog_Corpus-master/.idea/Dialog_Corpus-master.iml" />
+    </modules>
+  </component>
+</project>

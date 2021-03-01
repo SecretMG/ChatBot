@@ -1,0 +1,112 @@
+Microsoft Windows [版本 10.0.18363.1256]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+(venv) E:\common-folders\BIT\2020-Fall\NLP\project\2>pyinstaller -F -w app.py
+71 INFO: PyInstaller: 4.1
+71 INFO: Python: 3.7.2
+71 INFO: Platform: Windows-10-10.0.18362-SP0
+71 INFO: wrote E:\common-folders\BIT\2020-Fall\NLP\project\2\app.spec
+71 INFO: UPX is not available.
+79 INFO: Extending PYTHONPATH with paths
+['E:\\common-folders\\BIT\\2020-Fall\\NLP\\project\\2',
+ 'E:\\common-folders\\BIT\\2020-Fall\\NLP\\project\\2']
+87 INFO: checking Analysis
+87 INFO: Building Analysis because Analysis-00.toc is non existent
+87 INFO: Initializing module dependency graph...
+87 INFO: Caching module graph hooks...
+103 INFO: Analyzing base_library.zip ...
+2633 INFO: Caching module dependency graph...
+2737 INFO: running Analysis Analysis-00.toc
+2745 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by e:\common-folders\bit\2020-fall\nlp\project\2\venv\scripts\python.exe
+2761 INFO: Analyzing E:\common-folders\BIT\2020-Fall\NLP\project\2\app.py
+3225 INFO: Processing pre-find module path hook distutils from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_mo
+dule_path\\hook-distutils.py'.
+3225 INFO: distutils: retargeting to non-venv dir 'C:\\Users\\睿博\\AppData\\Local\\Programs\\Python\\Python37\\lib'
+4193 INFO: Processing pre-find module path hook site from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_
+path\\hook-site.py'.
+4193 INFO: site: retargeting to fake-dir 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\fake-modules'
+5352 INFO: Processing pre-safe import module hook setuptools.extern.six.moves from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller
+\\hooks\\pre_safe_import_module\\hook-setuptools.extern.six.moves.py'.
+27344 INFO: Processing module hooks...
+27344 INFO: Loading module hook 'hook-torch.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhoo
+ks'...
+28257 INFO: Loading module hook 'hook-win32ctypes.core.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\ho
+oks\\stdhooks'...
+28725 INFO: Loading module hook 'hook-difflib.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+28733 INFO: Excluding import of doctest from module difflib
+28741 INFO: Loading module hook 'hook-distutils.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+28741 INFO: Loading module hook 'hook-distutils.util.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+28757 INFO: Excluding import of lib2to3.refactor from module distutils.util
+28757 INFO: Loading module hook 'hook-encodings.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29069 INFO: Loading module hook 'hook-heapq.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29077 INFO: Excluding import of doctest from module heapq
+29077 INFO: Loading module hook 'hook-lib2to3.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29265 INFO: Loading module hook 'hook-multiprocessing.util.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29273 INFO: Import to be excluded not found: 'test'
+29273 INFO: Loading module hook 'hook-numpy.core.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29646 INFO: Loading module hook 'hook-numpy.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29654 INFO: Loading module hook 'hook-numpy._pytesttester.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29670 INFO: Excluding import of pytest from module numpy._pytesttester
+29670 INFO: Loading module hook 'hook-pickle.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+29678 INFO: Excluding import of argparse from module pickle
+29678 INFO: Loading module hook 'hook-pkg_resources.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+30826 INFO: Processing pre-safe import module hook win32com from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\h
+ooks\\pre_safe_import_module\\hook-win32com.py'.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+ModuleNotFoundError: No module named 'win32com'
+31033 INFO: Processing pre-safe import module hook win32com from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\_pyinstaller_hooks_contrib\\h
+ooks\\pre_safe_import_module\\hook-win32com.py'.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+ModuleNotFoundError: No module named 'win32com'
+32235 WARNING: Hidden import "pkg_resources.py2_warn" not found!
+32239 WARNING: Hidden import "pkg_resources.markers" not found!
+32251 INFO: Excluding import of __main__ from module pkg_resources
+32251 INFO: Loading module hook 'hook-PyQt5.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+32738 WARNING: Hidden import "sip" not found!
+32738 INFO: Loading module hook 'hook-PyQt5.QtCore.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+33184 INFO: Loading module hook 'hook-PyQt5.QtGui.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+33794 INFO: Loading module hook 'hook-PyQt5.QtWidgets.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+34977 INFO: Loading module hook 'hook-setuptools.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36153 INFO: Excluding import of setuptools.py27compat from module setuptools.command.easy_install
+36153 INFO: Excluding import of setuptools.py27compat from module setuptools.package_index
+36153 INFO: Excluding import of setuptools.py33compat from module setuptools.depends
+36153 INFO: Excluding import of setuptools.py33compat from module setuptools.package_index
+36153 INFO: Loading module hook 'hook-sqlite3.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36245 INFO: Loading module hook 'hook-sysconfig.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36253 INFO: Loading module hook 'hook-xml.dom.domreg.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36253 INFO: Loading module hook 'hook-xml.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36253 INFO: Loading module hook 'hook-setuptools.msvc.py' from 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks'...
+36253 INFO: Excluding import of numpy from module setuptools.msvc
+36386 INFO: checking Tree
+36394 INFO: Building Tree because Tree-00.toc is non existent
+36394 INFO: Building Tree Tree-00.toc
+36394 INFO: Looking for ctypes DLLs
+36442 INFO: Analyzing run-time hooks ...
+36442 INFO: Including run-time hook 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py'
+36450 INFO: Including run-time hook 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py'
+36450 INFO: Including run-time hook 'e:\\common-folders\\bit\\2020-fall\\nlp\\project\\2\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py'
+36458 INFO: Looking for dynamic libraries
+37624 WARNING: lib not found: torch_python.dll dependency of e:\common-folders\bit\2020-fall\nlp\project\2\venv\lib\site-packages\torch\_C.cp37-win_amd64.pyd
+38408 INFO: Looking for eggs
+38408 INFO: Using Python library C:\Users\睿博\AppData\Local\Programs\Python\Python37\python37.dll
+38408 INFO: Found binding redirects:
+[]
+38416 INFO: Warnings written to E:\common-folders\BIT\2020-Fall\NLP\project\2\build\app\warn-app.txt
+38516 INFO: Graph cross-reference written to E:\common-folders\BIT\2020-Fall\NLP\project\2\build\app\xref-app.html
+38596 INFO: checking PYZ
+38596 INFO: Building PYZ because PYZ-00.toc is non existent
+38596 INFO: Building PYZ (ZlibArchive) E:\common-folders\BIT\2020-Fall\NLP\project\2\build\app\PYZ-00.pyz
+39744 INFO: Building PYZ (ZlibArchive) E:\common-folders\BIT\2020-Fall\NLP\project\2\build\app\PYZ-00.pyz completed successfully.
+39768 INFO: checking PKG
+39768 INFO: Building PKG because PKG-00.toc is non existent
+39768 INFO: Building PKG (CArchive) PKG-00.pkg
+168542 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+168606 INFO: Bootloader e:\common-folders\bit\2020-fall\nlp\project\2\venv\lib\site-packages\PyInstaller\bootloader\Windows-64bit\runw.exe
+168606 INFO: checking EXE
+168614 INFO: Building EXE because EXE-00.toc is non existent
+168614 INFO: Building EXE from EXE-00.toc
+168614 INFO: Appending archive to EXE E:\common-folders\BIT\2020-Fall\NLP\project\2\dist\app.exe
+169262 INFO: Building EXE from EXE-00.toc completed successfully.
